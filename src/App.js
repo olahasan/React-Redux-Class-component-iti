@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import { Action } from "redux";
+import React from 'react'
+// import { Reducer } from "react";
+
+// import { Provider} from "react-redux";
+// import store from "./Store/Store";
+import Home from './Home';
+import Nav from './Store/Nav';
+import AboutClass from './Store/AboutClass'
+
+// import { useSelector } from 'react-redux';
 
 function App() {
+    // const lang = useSelector((state)=>state.lang);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Provider store={store}> */}
+        <Nav />
+        <Home />
+        <AboutClass />
+      {/* </Provider> */}
     </div>
   );
 }

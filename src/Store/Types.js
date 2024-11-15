@@ -1,0 +1,1 @@
+export const CURENT_LANGUAGE = 'CURENT_LANG';
