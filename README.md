@@ -1,5 +1,5 @@
 # React-Redux-Class-component-iti  
-# React-Redux[mapStateToProps, mapdispatchtoprops]-Class-component-iti
+### React-Redux[mapStateToProps, mapdispatchtoprops]-Class-component-iti
 
 This is not a real project .it just a simple one built with ReactJs [class-component] and redux[mapStateToProps, mapdispatchtoprops]. for learning and trying.
 
